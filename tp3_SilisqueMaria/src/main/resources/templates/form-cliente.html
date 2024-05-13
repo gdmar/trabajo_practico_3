@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Formulario de cliente </title>
+	</head>
+	<body>
+		<header>
+			<h1> Registro de cliente </h1>
+		</header>
+		<form action ="#" method="post">
+			<label for="dni">DNI: </label>
+			<input type="number" id="dni" name="dni" required="required"><br>
+			<label for="nombres" >Nombres</label>
+			<input type="text" id="nombres" name="nombres" required> <br>
+			<label for="apellidos">Apellidos</label>
+			<input type="text" id="apellidos" name="apellidos" required><br
+			<label for="fechaNacimiento" >Fecha de Nacimiento</label>
+			<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+			
+			<label for="genero">Genero</label><br>
+			<label  for="femenino">Femenino</label>
+			<input type="radio" id="femenino" name="femenino" >
+			<label for="masculino">Masculino</label>
+			<input type="radio" id="masculino" name="masculino">
+			<label for="x">X</label>
+			<input type="radio" id="x" name="x"><br>
+			
+			<label for="correoelectronico"> correoelectronico</label>
+			<input type="email" id="correoelectronico" name="correoelectronico" required><br>
+			<label for="domicilio">Domicilio</label>
+			<input type="text" id="domiilio" name="domicilio">
+			
+			<label for="provincia"> Provincia</label>
+			<select id="provincia" name="provincia" required>
+			
+				<option value="JUJUY">Jujuy</option>
+				<option value="SALTA">Salta</option>
+				<option value="TUCUMAN">Tucuman</option>
+				<option value="MISIONES">Misiones</option>
+				<option value="BUENOS AIRES">Buenos Aires</option>
+				<option value="CATAMARCA">Catamarca</option>
+				<option value="CORDOBA" >Cordoba</option>
+				<option value="SANTIAGO DEL ESTERO ">Santiago del estero</option>
+			</select><br>
+			<label for="telefonoCelular">Telefono Celular</label>
+			<input type="number" id="telefonoCelular" name="telefonoCelular" > 
+			
+			<label for="categoriadeInteres"> Selecionar categoria de interes</label>
+			<input type="checkbox" id="categoriadeInteres" name="categoriadeInteres">
+			<!--<label for="sugerencias">Sugerencia para la empresa</label> -->
+			
+			<label for="pasword">Contraseña</label>
+			<input type="password" id="pasword" name="pasword" required>
+			
+			<label for="aceptarCondiciones">Aceptar los terminos y condiciones</label>
+			<input type="checkbox" id="acetptarCondiciones" name="aceptarCondiciones" required><br>
+			
+			<label for="aceptoRecibirInformacion" > Acepto recibir informacion relativa a la empresa</label>
+			<input type="checkbox" id="aceptoRecibirInformacion" name="aceptoRecibirInformacion"><br>
+			<button type="submit">Enviar</button>
+		</form>
+		
+		
+		 <footer>
+        <!-- El pie de página  -->
+        <p>REDES SOCIALES</p>
+        <a href="info@fi.unju.edu.ar"> correo electronico</a>
+        <a href="https://www.facebook.com/fiunju/">facebook</a>
+        <a href="https://www.instagram.com/fiunju/"> instagram</a>
+    </footer>
+	</body>
+</html>
