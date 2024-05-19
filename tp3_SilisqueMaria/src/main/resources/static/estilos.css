@@ -1,0 +1,22 @@
+
+#encabezado{
+	text-align: center;
+	background-color:  #e65100;
+	margin: 0px;
+	padding: 15px;
+}
+	
+.formulario{
+	text-align: center;
+	background-color:  #ff6d00;
+	padding: 20px;
+}
+.footer{
+	text-align: left;
+	background-color:#ffab40 ;
+	margin: 0px;
+	padding: 15px;
+}
+.formimput{
+	padding: 5px;
+}

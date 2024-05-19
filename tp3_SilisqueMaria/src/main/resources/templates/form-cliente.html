@@ -1,39 +1,58 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
+	<head >
 		<meta charset="UTF-8">
 		<title>Formulario de cliente </title>
+		<link rel="stylesheet" href="../static/estilos.css">
 	</head>
 	<body>
-		<header>
+		<header id="encabezado">
 			<h1> Registro de cliente </h1>
 		</header>
-		<form action ="#" method="post">
-			<label for="dni">DNI: </label>
-			<input type="number" id="dni" name="dni" required="required"><br>
-			<label for="nombres" >Nombres</label>
-			<input type="text" id="nombres" name="nombres" required> <br>
-			<label for="apellidos">Apellidos</label>
-			<input type="text" id="apellidos" name="apellidos" required><br
-			<label for="fechaNacimiento" >Fecha de Nacimiento</label>
-			<input type="date" id="fechaNacimiento" name="fechaNacimiento" required><br>
+		<form action ="#" method="post"  class="formulario">
+			<div class="formimput" >
+				<label for="dni">DNI: </label>
+			   <input type="number" id="dni" name="dni" required="required">
+			</div>
 			
-			<label for="genero">Genero</label><br>
+			<div class="formimput">
+				<label for="nombres" >Nombres</label>
+			    <input type="text" id="nombres" name="nombres" required>
+			</div>
+			 
+			<div class="formimput">
+				<label for="apellidos">Apellidos</label>
+			    <input type="text" id="apellidos" name="apellidos" required>
+			</div>
+			
+			<div class="formimput">
+				<label for="fechaNacimiento" >Fecha de Nacimiento</label>
+			    <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+			</div>
+			
+			<div class="formimput">
+				<label for="genero">Generos: </label>
 			<label  for="femenino">Femenino</label>
 			<input type="radio" id="femenino" name="femenino" >
 			<label for="masculino">Masculino</label>
 			<input type="radio" id="masculino" name="masculino">
 			<label for="x">X</label>
-			<input type="radio" id="x" name="x"><br>
+			<input type="radio" id="x" name="x">
+			</div>
 			
-			<label for="correoelectronico"> correoelectronico</label>
-			<input type="email" id="correoelectronico" name="correoelectronico" required><br>
-			<label for="domicilio">Domicilio</label>
+			<div class="formimput">
+				<label for="correoelectronico"> correoelectronico</label>
+			<input type="email" id="correoelectronico" name="correoelectronico" required>
+			</div>
+			
+			<div class="formimput">
+				<label for="domicilio">Domicilio</label>
 			<input type="text" id="domiilio" name="domicilio">
+			</div>
 			
-			<label for="provincia"> Provincia</label>
+			<div class="formimput">
+				<label for="provincia"> Provincia</label>
 			<select id="provincia" name="provincia" required>
-			
 				<option value="JUJUY">Jujuy</option>
 				<option value="SALTA">Salta</option>
 				<option value="TUCUMAN">Tucuman</option>
@@ -42,27 +61,44 @@
 				<option value="CATAMARCA">Catamarca</option>
 				<option value="CORDOBA" >Cordoba</option>
 				<option value="SANTIAGO DEL ESTERO ">Santiago del estero</option>
-			</select><br>
-			<label for="telefonoCelular">Telefono Celular</label>
+			</select>
+			</div>
+			
+			<div class="formimput">
+				<label for="telefonoCelular">Telefono Celular</label>
 			<input type="number" id="telefonoCelular" name="telefonoCelular" > 
+			</div>
 			
-			<label for="categoriadeInteres"> Selecionar categoria de interes</label>
+			<div class="formimput">
+				<label for="categoriadeInteres"> Selecionar categoria de interes</label>
 			<input type="checkbox" id="categoriadeInteres" name="categoriadeInteres">
-			<!--<label for="sugerencias">Sugerencia para la empresa</label> -->
+			</div>
 			
-			<label for="pasword">Contraseña</label>
+			<div class="formimput">
+				<label for="sugerencias">Sugerencia para la empresa</label> 
+			<textarea cols="50" rows="4" ></textarea>
+			</div>
+			
+			<div class="formimput">
+				<label for="pasword">Contraseña</label>
 			<input type="password" id="pasword" name="pasword" required>
+			</div>
 			
-			<label for="aceptarCondiciones">Aceptar los terminos y condiciones</label>
-			<input type="checkbox" id="acetptarCondiciones" name="aceptarCondiciones" required><br>
+			<div class="formimput">
+				<label for="aceptarCondiciones">Aceptar los terminos y condiciones</label>
+			<input type="checkbox" id="acetptarCondiciones" name="aceptarCondiciones" required>
+			</div>
 			
-			<label for="aceptoRecibirInformacion" > Acepto recibir informacion relativa a la empresa</label>
-			<input type="checkbox" id="aceptoRecibirInformacion" name="aceptoRecibirInformacion"><br>
+			<div class="formimput">
+				<label for="aceptoRecibirInformacion" > Acepto recibir informacion relativa a la empresa</label>
+			<input type="checkbox" id="aceptoRecibirInformacion" name="aceptoRecibirInformacion">
+			</div>
+			
 			<button type="submit">Enviar</button>
 		</form>
 		
 		
-		 <footer>
+		 <footer class="footer">
         <!-- El pie de página  -->
         <p>REDES SOCIALES</p>
         <a href="info@fi.unju.edu.ar"> correo electronico</a>
