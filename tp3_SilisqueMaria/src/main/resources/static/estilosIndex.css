@@ -1,0 +1,74 @@
+#encabezado{
+	text-align: center;
+	background-color: coral;
+	margin: -22px;
+	width: 100%;
+	padding: 11px;
+}
+#footer{
+	background-color: coral;
+	margin: -16px;
+	width: 100%;
+	padding: 08px;
+}
+.navegacion{
+background-color: indianred;
+margin: -16px;
+width: 100%;
+padding: 8px;
+}
+.contenido{
+	text-align: center;
+	background-color: darksalmon;
+	 padding:  05px 0px  30px 0px;
+}
+ol{
+   margin-left: 20px;
+	padding:  05px 300px  15px 300px;
+}
+ol li{
+    margin-bottom: 10px;
+	line-height: 1;
+
+}
+.tabla{
+	text-align-last: start;
+	display: inline-table;
+	border-collapse: collapse;
+	width: 50%;
+}
+tr th{
+	border: 2px solid rgb(64, 0, 64); 
+  padding: 8px; 
+  text-align: left;
+}
+tr td{
+	border: 2px solid rgb(64, 0, 64); 
+  padding: 8px; 
+  text-align: left;
+ 
+}
+.contenedor{
+	display: flex;
+	width: 100%;
+}
+.asideIndex{
+	width: 315px;
+	background-color: cadetblue;
+	text-align: center;
+	width: 30%;
+}
+main{
+	flex: 1px;
+	width: 70%;
+}
+.imagen{
+	margin: 0px;
+	text-align: right;
+}
+body{
+	margin: 0px;
+}
+.subrayado{
+	text-decoration: underline;
+}
